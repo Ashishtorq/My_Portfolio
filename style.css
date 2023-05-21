@@ -13,7 +13,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background: url(images/background.png);
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(images/bgimg.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -99,4 +99,7 @@ headertext {
 h1 {
     font-size: 48px;
     margin-top: 10px;
+}
+p{
+    font-size: 30px;
 }
